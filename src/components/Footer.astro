@@ -3,7 +3,34 @@
 
 ---
 
-  <footer class="bg-primary relative">
+  <footer class="relative">
+
+
+
+    <div style="overflow:hidden; absolute">
+      <svg
+        preserveAspectRatio="none"
+        viewBox="0 0 1200 120"
+        xmlns="http://www.w3.org/2000/svg"
+        style="fill: #bfb3a4; width: 125%; height: 142px;"
+      >
+        <path
+        d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
+        opacity=".25"
+      />
+        <path
+          d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
+          opacity=".5"
+        />
+        <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
+      </svg>
+  
+    </div>
+
+
+
+
+
 
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
 
@@ -30,7 +57,7 @@
 
   
       <!--texto-->
-      <p class="mx-auto my-6 max-w-md leading-relaxed text-lg text-center text-white">
+      <p class="mx-auto my-6 max-w-md leading-relaxed text-xl text-center text-white" id="parrafo">
         Gracias por llegar hasta acá, puedes contactarme por las siguientes redes sociales.
       </p>
 
@@ -42,7 +69,7 @@
 
           <a href="#" class="focus:outline-none">
     
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin w-8 sm:w-12 hover:scale-110" viewBox="0 0 24 24" stroke-width="2" stroke="#0d0d0d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin w-8 sm:w-12 hover:scale-110 stroke-info" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
               <path d="M8 11l0 5" />
@@ -63,7 +90,7 @@
 
           <a href="mailto:sebastian.alvarez.diaz@outlook.com" class="focus:outline-none">
     
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail hover:scale-110 w-8 sm:w-12"  viewBox="0 0 24 24" stroke-width="2" stroke="#0d0d0d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail hover:scale-110 w-8 sm:w-12 stroke-info"  viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
               <path d="M3 7l9 6l9 -6" />
@@ -100,9 +127,9 @@
       </div>
 
       <!--home -->
-      <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+      <span class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
         <a
-          class="inline-block rounded-full bg-info p-2 text-white shadow transition hover:bg-veig sm:p-3 lg:p-4"
+          class="inline-block rounded-full bg-primary p-2 text-white shadow transition hover:bg-veig sm:p-3 lg:p-4"
           href="#Inicio"
         >
           <span class="sr-only">Back to top</span>
@@ -120,13 +147,40 @@
             />
           </svg>
         </a>
-      </div>
+      </span>
 
 
     </div>
+
+
+    <div class="pt-6">
+      <p class="text-center text-xs/relaxed text-gray-500">
+        &copy; 2024 Sebastián. Casi todos los derechos reservados.
+      
+      <br>
+      Diseñada por
+      <a href="https://www.linkedin.com/in/davinson-vanegas/" target="_blank" class="text-gray-700 underline transition hover:text-gray-700/75">Davinson Vanegas</a>
+      as
+      <a href="https://github.com/vanegas-27" target="_blank" class="text-gray-700 underline transition hover:text-gray-700/75"
+        >Dev.vanegas</a
+      >.
+    </p>
+    </div>
+
   </footer>
 
   <style>
+
+    footer{
+      background-image: url(./img/escribir.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.80;
+
+      #parrafo{
+        filter: drop-shadow(1px 1px 3px black);
+      }
+    }
 
     .ul_sebas {
       font-size: 18px;

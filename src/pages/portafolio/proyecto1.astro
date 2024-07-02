@@ -1,0 +1,63 @@
+---
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout title="Proyecto numero 1">
+
+    <main class="max-w-screen-md mx-auto p-4">
+
+        <figure>
+            <img 
+            src="../img/maquina.jpg" 
+            alt="maquina de escribir"
+            class="w-full h-[250px] sm:h-[350px] object-cover mx-auto rounded-lg shadow-2xl hover:opacity-75"
+            >
+        </figure>
+        <div>
+            <h1 class="text-primary text-3xl font-bold sm:text-5xl mt-8 mb-2">Titulo del trabajo</h1>
+            <span class="text-[10px] sm:text-sm text-info bg-primary px-2 py-1 rounded-lg shadow-lg mx-2 my-3">Nombre de la empresa</span>
+            <p class="w-full mt-2 text-md text-black text-justify mx-2 my-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium commodi dolor ex velit, soluta molestias ipsam aspernatur quae impedit architecto aperiam quia, porro sequi neque odit ducimus veritatis vero iste!
+        
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam eveniet expedita impedit quas distinctio officiis, quia eos dolorum itaque molestias dolore accusamus inventore et ex? Natus voluptates necessitatibus iure nostrum.
+            </p>
+        </div>
+    
+        <video src="../img/video.mp4"
+            autoplay 
+            muted 
+            loop 
+            controls
+            class="rounded-lg shadow-xl mx-2 my-10 w-full sm:h-[400px] object-cover"
+        >
+        </video>
+
+        <button
+            class="overflow-hidden w-32 p-2 h-12 bg-primary text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+            >
+            <a href="/">
+                Regresar
+            </a>
+            <span
+                class="absolute w-36 h-32 -top-8 -left-2 bg-veig rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-right"
+            ></span>
+            <span
+                class="absolute w-36 h-32 -top-8 -left-2 bg-primary rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-right"
+            ></span>
+            <span
+                class="absolute w-36 h-32 -top-8 -left-2 bg-info rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-right"
+            ></span>
+            <span
+                class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10 text-primary"
+                >
+                <a href="/">
+                    Regresar
+                </a>
+            </span
+            >
+            </button>
+
+
+    </main>
+    
+</Layout>

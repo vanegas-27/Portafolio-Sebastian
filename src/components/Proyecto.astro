@@ -1,0 +1,37 @@
+---
+interface Props {
+
+    title : string;
+    url : string;
+    company : string;
+    description : string;
+    img : string;
+    alt : string
+
+}
+
+const {title , url , company , description , img , alt } = Astro.props;
+---
+
+
+<article class="group md:flex my-10 rounded-md transition-colors duration-500 hover:bg-info hover:shadow-2xl p-4">
+        
+    <div class="py-2 md:p-4 md:max-w-[80%]">
+      <a href={url}>
+        <h3 class="text-lg font-bold text-primary">{title}</h3>
+      </a>
+
+      <span class="text-[10px] sm:text-sm text-info bg-primary px-2 py-1 rounded-lg shadow-lg">{company}</span>
+  
+      <p class="w-full sm:w-10/12 mt-2 line-clamp-3 text-sm/relaxed text-black text-justify">{description}</p>
+
+      <a href={url} target="_blank" class="text-sm text-gray-500 font-semibold block mt-4 transition-transform duration-200 hover:text-black hover:translate-x-2">Leer mas...</a>
+    </div>
+
+    <img
+      alt={alt}
+      src={img}
+      class="h-56 w-full rounded-lg object-cover shadow-xl transition group-hover:grayscale-[50%]"
+    />
+
+  </article>

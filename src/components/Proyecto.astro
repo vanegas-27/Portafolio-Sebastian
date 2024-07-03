@@ -13,17 +13,16 @@ interface Props {
 const {title , url , company , description , img , alt } = Astro.props;
 ---
 
-
-<article class="group md:flex my-10 rounded-md transition-colors duration-500 hover:bg-info hover:shadow-2xl p-4">
+  <article class="group md:flex my-10">
         
-    <div class="py-2 md:p-4 md:max-w-[80%]">
+    <div class="my-2 p-2 md:m-4 md:p-4 md:max-w-[80%] rounded-lg transition-colors duration-500 hover:bg-info hover:shadow-2xl">
       <a href={url}>
         <h3 class="text-lg font-bold text-primary">{title}</h3>
       </a>
 
       <span class="text-[10px] sm:text-sm text-info bg-primary px-2 py-1 rounded-lg shadow-lg">{company}</span>
   
-      <p class="w-full sm:w-10/12 mt-2 line-clamp-3 text-sm/relaxed text-black text-justify">{description}</p>
+      <p class="w-full sm:w-10/12 mt-2 line-clamp-3 text-sm/relaxed sm:text-md text-black text-justify">{description}</p>
 
       <a href={url} target="_blank" class="text-sm text-gray-500 font-semibold block mt-4 transition-transform duration-200 hover:text-black hover:translate-x-2">Leer mas...</a>
     </div>

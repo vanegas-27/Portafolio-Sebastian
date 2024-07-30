@@ -10,11 +10,11 @@ import Layout from "@/layouts/Layout.astro";
             <img 
             src="../img/maquina.jpg" 
             alt="maquina de escribir"
-            class="w-full h-[250px] sm:h-[350px] object-cover mx-auto rounded-lg shadow-2xl hover:opacity-75"
+            class="w-full h-[250px] sm:h-[350px] object-cover mx-auto rounded-lg shadow-2xl hover:opacity-75 entrada_img"
             >
         </figure>
         <div>
-            <h1 class="text-primary text-3xl font-bold sm:text-5xl mt-8 mb-2">Titulo del trabajo</h1>
+            <h1 class="text-primary text-3xl font-bold sm:text-5xl mt-8 mb-2 entrada_text2">Titulo del trabajo</h1>
             <span class="text-[10px] sm:text-sm text-info bg-primary px-2 py-1 rounded-lg shadow-lg mx-2 my-3">Nombre de la empresa</span>
             <p class="w-full mt-2 text-md text-black text-justify mx-2 my-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium commodi dolor ex velit, soluta molestias ipsam aspernatur quae impedit architecto aperiam quia, porro sequi neque odit ducimus veritatis vero iste!
@@ -48,9 +48,31 @@ import Layout from "@/layouts/Layout.astro";
         </div>
 
 
-      
-
-
     </main>
     
 </Layout>
+
+
+<style>
+
+.entrada_img {
+	animation: entrada_img 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+
+ @keyframes entrada_img {
+  0% {
+    transform: scale(1.5);
+    transform-origin: 50% 0%;
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+</style>

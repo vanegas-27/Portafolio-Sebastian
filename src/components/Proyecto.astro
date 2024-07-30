@@ -13,7 +13,7 @@ interface Props {
 const {title , url , company , description , img , alt } = Astro.props;
 ---
 
-  <article class="group md:flex my-10">
+  <article class="group md:flex my-10 bloque">
         
     <div class="my-2 p-2 md:m-4 md:p-4 md:max-w-[80%] rounded-lg transition-colors duration-500 hover:bg-info hover:shadow-2xl">
       <a href={url}
@@ -35,3 +35,34 @@ const {title , url , company , description , img , alt } = Astro.props;
     />
 
   </article>
+
+  <style>
+
+
+    .bloque{
+   
+     view-timeline-name: --reveal;
+   
+     animation-name: show;
+     animation-fill-mode: both;
+   
+     animation-timeline: --reveal;
+     animation-range: entry 25% cover 50%;
+   
+   
+    }
+   
+   
+       @keyframes show {
+         from {
+           opacity: 0; scale: 50%;
+         }
+   
+         to {
+           opacity: 1; scale: 100%;
+         }
+         
+       }
+   
+   
+     </style>

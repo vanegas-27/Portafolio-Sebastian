@@ -13,29 +13,39 @@ interface Props {
 const {title , url , company , description , img , alt } = Astro.props;
 ---
 
+<a href={url}
+target="_blank"
+class="table">
+
   <article class="group md:flex my-10 bloque">
-        
-    <div class="my-2 p-2 md:m-4 md:p-4 md:max-w-[80%] rounded-lg transition-colors duration-500 hover:bg-info hover:shadow-2xl">
-      <a href={url}
-      target="_blank">
-        <h3 class="text-lg font-bold text-primary">{title}</h3>
-      </a>
 
-      <span class="text-[10px] sm:text-sm text-info bg-primary px-2 py-1 rounded-lg shadow-lg">{company}</span>
-  
-      <p class="w-full sm:w-10/12 mt-2 line-clamp-3 text-sm/relaxed sm:text-md text-black text-justify">{description}</p>
 
-      <a href={url} target="_blank" class="text-sm text-gray-500 font-semibold block mt-4 transition-transform duration-200 hover:text-black hover:translate-x-2">Leer mas...</a>
-    </div>
+      <div class="my-2 p-2 md:m-4 md:p-4 md:max-w-[60%] rounded-lg transition-colors duration-500 hover:bg-info hover:shadow-2xl">
+        <a href={url}
+        target="_blank"
+        class="table">
+          <h3 class="text-lg font-bold text-primary">{title}</h3>
+        </a>
 
-    <img
-      alt={alt}
-      src={img}
-      class="h-56 w-full rounded-lg object-cover shadow-xl transition group-hover:grayscale-[50%]"
-    />
+        <span class="text-[10px] sm:text-sm text-info bg-primary px-2 py-1 rounded-lg shadow-lg">{company}</span>
+    
+        <p class="w-full sm:w-10/12 mt-2 line-clamp-3 text-sm/relaxed sm:text-md text-black text-justify">{description}</p>
 
+        <a href={url} target="_blank" class="text-md table text-gray-500 font-semibold mt-4 transition-transform duration-200 hover:text-black hover:translate-x-2">Leer mas...</a>
+      </div>
+
+      <a href={url} 
+      target="_blank"
+      class="w-full">
+        <img
+          alt={alt}
+          src={img}
+          class="h-56 w-full rounded-lg object-cover shadow-xl transition group-hover:grayscale-[80%]"
+        />
+    </a>
   </article>
 
+</a>
   <style>
 
 

@@ -3,132 +3,165 @@
 ---
 
 <section class="text-black" id="Servicios">
-    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+  <div
+    class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
+  >
 
-      <div class="max-w-2xl my-10 text-justify">
+    <!-- secion de los servicions -->
+    <section>
+      <div class="mx-auto py-12 overflow-hidden">
+        <div class="items-end justify-between sm:flex">
+          <div>
+            <h2 class="text-4xl text-primary font-bold sm:text-5xl flex gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-apps size-8 sm:size-12 opacity-75 stroke-primary"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"
+                ></path>
+                <path
+                  d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"
+                ></path>
+                <path
+                  d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"
+                ></path>
+                <path d="M14 7l6 0"></path>
+                <path d="M17 4l0 6"></path>
+              </svg>
+              Mis servicios
+            </h2>
 
-        <h2 class="text-primary text-3xl font-bold sm:text-5xl flex gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps size-8 sm:size-12 opacity-75 stroke-primary" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-            <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-            <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-            <path d="M14 7l6 0" />
-            <path d="M17 4l0 6" />
-          </svg>
-          Mis servicios
-        </h2>
-  
-        <p class="mt-10 text-lg">
-          Con los años, el libro se ha promulgado como bien de consumo que tiene una doble dimensión, comercial y cultural, debido no solo a la reducción de sus costos de producción, sino a que sus posibilidades de perdurar aumentaron de manera significativa, a causa de que los materiales que se usan en su fabricación favorecen que se conserve mejor y por más tiempo. Por eso, la curaduría editorial consiste en el despliegue de una serie de tareas sobre el manuscrito original para convertirlo en un <span id="italica">objeto de percepción</span>; es decir, en enriquecer el contenido de la obra a través del dominio de pequeñas unidades de información interrelacionadas con otras unidades mayores, lo cual demanda bastante atención al detalle: tiempo y esfuerzos compartidos por varias personas que intervienen en la decantación del texto que ha de llegar a manos de los lectores. 
-        </p>
+            <p class="mt-10 text-lg max-w-3xl text-justify">
+              Con los años, el libro se ha promulgado como bien de consumo que
+              tiene una doble dimensión, comercial y cultural, debido no solo a
+              la reducción de sus costos de producción, sino a que sus
+              posibilidades de perdurar aumentaron de manera significativa, a
+              causa de que los materiales que se usan en su fabricación
+              favorecen que se conserve mejor y por más tiempo. Por eso, la
+              curaduría editorial consiste en el despliegue de una serie de
+              tareas sobre el manuscrito original para convertirlo en un <span
+                id="italica">objeto de percepción</span
+              >; es decir, en enriquecer el contenido de la obra a través del
+              dominio de pequeñas unidades de información interrelacionadas con
+              otras unidades mayores, lo cual demanda bastante atención al
+              detalle: tiempo y esfuerzos compartidos por varias personas que
+              intervienen en la decantación del texto que ha de llegar a manos
+              de los lectores.
+            </p>
+          </div>
+
+          <div class="flex gap-4 lg:mt-0">
+            <button
+              aria-label="Previous slide"
+              id="keen-slider-previous"
+              class="rounded-full border border-primary p-3 text-black transition hover:bg-info hover:text-primary"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 rtl:rotate-180"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"></path>
+              </svg>
+            </button>
+
+            <button
+              aria-label="Next slide"
+              id="keen-slider-next"
+              class="rounded-full border border-primary p-3 text-black transition hover:bg-info hover:text-primary"
+            >
+              <svg
+                class="size-5 rtl:rotate-180"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 5l7 7-7 7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
+          <div id="keen-slider" class="keen-slider">
+
+            <div class="keen-slider__slide cursor-grab">
+              <blockquote
+                class="flex flex-col justify-between shadow-xs sm:p-4"
+              >
+                <div>
+
+                  <div class="mt-4">
+                    <p class="text-3xl font-bold text-primary sm:text-4xl">
+                      Gestión editorial
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-justify text-md text-gray-700 h-[300px] overflow-x-hidden overflow-y-scroll">
+                      La edición como proceso comprende la realización de una serie de tareas relacionadas con los componentes textual, gráfico y de producción, lo cual determina algunas de las funciones que deben desarrollarse en una editorial para producir los libros y demás publicaciones que conforman la oferta que esta pone a disposición del mercado. El editor en jefe tiene que entenderse con profesionales que cumplen diferentes funciones que forman parte del cuidado editorial y cuya intervención representa una contribución fundamental a su desarrollo. <br>
+                      <tab></tab>La coordinación del proceso de edición de los títulos supone, para el editor en jefe, la definición del plan editorial, la redacción de la ficha descriptiva de la colección y el diseño detallado tanto de la maqueta como de la hoja de estilo, así como la asignación de tareas a quienes ejercen las diferentes funciones que lo conforman, la definición de plazos y el seguimiento tanto a la ejecución de las primeras como al cumplimiento de las segundas.    
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="keen-slider__slide cursor-grab">
+              <blockquote
+                class="flex flex-col justify-between shadow-xs sm:p-4"
+              >
+                <div>
+
+                  <div class="mt-4">
+                    <p class="text-3xl font-bold text-primary sm:text-4xl">
+                      Edición de mesa
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-justify text-md text-gray-700 h-[300px] overflow-x-hidden overflow-y-scroll">
+                      Un proceso de edición consecuente, culminado en el sentido pleno de la palabra, es fundamental y determinante si se desea obtener una obra con pulcritud. Si el editor durante el desempeño de su oficio se ocupa con suficiencia, esmero, criterio y orden, conseguirá que en sus ediciones forma y fondo sean un complemento indisociable. Para lograrlo, debe entregarse al original para conocer su estructura lógica, observar la adecuación a las competencias de los lectores, determinar el nivel de intervención de la corrección sintáctica y ortográfica, advertir la precisión de los datos expuestos, la correspondencia de la maqueta y la calidad intrínseca del texto.    
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="keen-slider__slide cursor-grab">
+              <blockquote
+                class="flex flex-col justify-between shadow-xs sm:p-4"
+              >
+                <div>
+
+                  <div class="mt-4">
+                    <p class="text-3xl font-bold text-primary sm:text-4xl">
+                      Corrección de estilo
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-justify text-md text-gray-700 h-[300px] overflow-x-hidden overflow-y-scroll">
+                      Corregir los originales tiene que ver especialmente con los aspectos ortográfico, gramatical y de ajustes a la norma académica o científica, prestando especial atención a la pauta de la editorial o entidad contratante y sin dejar de lado algunas intervenciones que incrementan la calidad en los demás aspectos: mejoras eventuales, pero imprescindibles, sugeridas por mor de la claridad, comprensibilidad o precisión del texto a fin de incrementar la efectividad del estilo personal conforme al cual el autor ha escrito su trabajo.    
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+        </div>
 
       </div>
-  
-
-      <!--services one-->
-      <div class="flex overflow-scroll overflow-y-hidden p-3 gap-4 md:justify-around" style="scrollbar-color: #593f2f transparent;">
-        
-        <div
-        class="flex-1 md:flex-none service-card size-[250px] min-w-[210px] md:min-w-[250px] rounded-md shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 border border-veig  bg-primary flex flex-col items-start gap-2 transition-all duration-300 group hover:bg-[#0d0d0d] hover:border-info"
-      >
-        <svg
-          stroke-linejoin="round"
-          stroke-linecap="round"
-          stroke-width="2"
-          stroke="#000000"
-          fill="none"
-          viewBox="0 0 24 24"
-          class="text-5xl h-12 w-12 stroke-veig group-hover:stroke-info m-auto"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect ry="2" rx="2" height="14" width="20" y="3" x="2"></rect>
-          <line y2="21" x2="16" y1="21" x1="8"></line>
-          <line y2="21" x2="12" y1="17" x1="12"></line>
-        </svg>
-      
-        <p class="font-bold text-1xl text-info m-auto">
-          Gestión editorial
-        </p>
-        <p class="text-gray-400 text-sm text-justify group-hover:text-white">
-          La edición como proceso comprende la realización
-        </p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil-heart text-3xl font-bold self-end hidden md:block stroke-veig group-hover:stroke-info " width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M17 11l1.5 -1.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4h4l2 -2" />
-          <path d="M13.5 6.5l4 4" />
-          <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" />
-        </svg>
-        </div>
-
-        <!--services two-->
-        <div
-        class="flex-1 md:flex-none service-card size-[250px] min-w-[210px] md:min-w-[250px] rounded-md shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 border border-veig  bg-info flex flex-col items-start gap-2 transition-all duration-300 group hover:bg-[#0d0d0d] hover:border-info"
-      >
-        <svg
-          stroke-linejoin="round"
-          stroke-linecap="round"
-          stroke-width="2"
-          stroke="#000000"
-          fill="none"
-          viewBox="0 0 24 24"
-          class="text-5xl h-12 w-12 stroke-black group-hover:stroke-info m-auto"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect ry="2" rx="2" height="14" width="20" y="3" x="2"></rect>
-          <line y2="21" x2="16" y1="21" x1="8"></line>
-          <line y2="21" x2="12" y1="17" x1="12"></line>
-        </svg>
-      
-        <p class="font-bold text-1xl text-black m-auto group-hover:text-info">
-          WEBSITE SEO
-        </p>
-        <p class="text-black text-sm text-justify group-hover:text-white">
-          Website ravida surna eveti semen the conse tusio anivite dianne one nivam.
-        </p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil-heart text-3xl font-bold self-end hidden md:block group-hover:stroke-info" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0d0d0d" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M17 11l1.5 -1.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4h4l2 -2" />
-          <path d="M13.5 6.5l4 4" />
-          <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" />
-        </svg>
-        </div>
-
-        <!--services three-->
-        <div
-        class="flex-1 md:flex-none service-card size-[250px] min-w-[210px] md:min-w-[250px] rounded-md shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 border border-veig  bg-primary flex flex-col items-start gap-2 transition-all duration-300 group hover:bg-[#0d0d0d] hover:border-info"
-      >
-        <svg
-          stroke-linejoin="round"
-          stroke-linecap="round"
-          stroke-width="2"
-          stroke="#000000"
-          fill="none"
-          viewBox="0 0 24 24"
-          class="text-5xl h-12 w-12 stroke-veig group-hover:stroke-info m-auto"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect ry="2" rx="2" height="14" width="20" y="3" x="2"></rect>
-          <line y2="21" x2="16" y1="21" x1="8"></line>
-          <line y2="21" x2="12" y1="17" x1="12"></line>
-        </svg>
-      
-        <p class="font-bold text-1xl text-info m-auto">
-          WEBSITE SEO
-        </p>
-        <p class="text-gray-400 text-sm text-justify group-hover:text-white">
-          Website ravida surna eveti semen the conse tusio anivite dianne one nivam.
-        </p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil-heart text-3xl font-bold self-end hidden md:block stroke-veig group-hover:stroke-info " width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M17 11l1.5 -1.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4h4l2 -2" />
-          <path d="M13.5 6.5l4 4" />
-          <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" />
-        </svg>
-        </div>
-
-
-      </div>
-  
-    </div>
+    </section>
+  </div>
 </section>

@@ -2,6 +2,7 @@
 // Supports weights 400-800
 import '@fontsource-variable/eb-garamond';
 import Metas from '@/components/Metas.astro';
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 interface Props {
 	title: string;
@@ -22,6 +23,7 @@ const { title } = Astro.props;
 			title={title}
 			description="Profesional en filosofía con formación en gestión editorial y corrección de estilo. Tengo la capacidad de dirigir las etapas de producción editorial, velando por que cada instancia del proceso cuente con los recursos necesarios para que las actividades del cuidado editorial se lleven a cabo con la mayor eficiencia y calidad posibles. Debido a mi inclinación hacia la lingüística, centré el interés en el conjunto de normas y principios que rige la lengua castellana, lo cual me llevó a formarme como corrector de textos académicos y literarios"
 		/>
+		<SpeedInsights/>
 
 		<link rel="stylesheet" href="./css/styles.css">
 

@@ -29,7 +29,7 @@ class="table">
 
         <span class="text-[10px] sm:text-sm text-info bg-primary px-2 py-1 rounded-lg shadow-lg">{company}</span>
     
-        <p class="w-full sm:w-10/12 mt-2 line-clamp-3 text-sm/relaxed sm:text-md text-black text-justify">{description}</p>
+        <p class="w-full sm:w-10/12 mt-2 line-clamp-4 text-sm/relaxed sm:text-md text-black text-justify">{description}</p>
 
         <a href={url} target="_blank" class="text-md table text-gray-500 font-semibold mt-4 transition-transform duration-200 hover:text-black hover:translate-x-2">Leer mas...</a>
       </div>
@@ -40,6 +40,8 @@ class="table">
         <img
           alt={alt}
           src={img}
+          title={title}
+          loading="lazy"
           class="h-56 w-full rounded-lg object-cover shadow-xl transition group-hover:grayscale-[80%]"
         />
     </a>

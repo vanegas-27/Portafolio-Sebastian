@@ -1,6 +1,6 @@
 ---
-img : "./img/memorias_de_eventos.webp"
+img : ["./img/memorias_de_eventos.webp"]
 title : "Memorias de eventos Universidad Católica Luis Amigó. La ciencia como escritura"
 description : "“La ciencia como escritura es la consigna que trazamos en el lanzamiento del Laboratorio de Escritura Científica – EscriLAB, con la presentación de siete estrategias de centros y programas de escritura de universidades latinoamericanas y nacionales. Estas memorias presentan una contribución en áreas de enseñanza de la escritura universitaria y la investigación pedagógica de la misma, así como para la orientación de trabajos de grado y tesis. La escritura y la ciencia tienen una relación de mutua dependencia, la primera es una invención tecnológica productora de evidencia y memoria, de la que se sirve la segunda para explicar y divulgar sus resultados en una comunidad científica. Del mismo modo, existe una ciencia del texto (sea alfabetización, literacidad, escrituralidad), que estudia la forma como las disciplinas transmiten sus teorías y nuevos conocimientos en la enseñanza y la apropiación social."
-link : "https://www.funlam.edu.co/uploads/fondoeditorial/787_Memorias_de_eventos_Universidad_Catolica_Luis_Amigo_La_ciencia_como_escritura.pdf"
+link : ["https://www.funlam.edu.co/uploads/fondoeditorial/787_Memorias_de_eventos_Universidad_Catolica_Luis_Amigo_La_ciencia_como_escritura.pdf"]
 ---

@@ -1,6 +1,0 @@
----
-img : "./img/perseitas_vol10.webp"
-title : "Perseitas"
-description : "“Perseitas” es una publicación continua de acceso abierto. Tiene como objetivo difundir, de forma digital, las investigaciones, reflexiones teóricas y sistematizaciones en torno a la filosofía, la teología y los estudios humanísticos que aborden problemas religiosos, históricos, literarios, sociales, políticos o estéticos. Es financiada por la Universidad Católica Luis Amigó, que se ocupa de todos los costos de producción editorial, publicación y divulgación. Atendiendo a esto, Perseitas no cobra a los autores por ninguna actividad del proceso editorial ni por la publicación; tampoco genera retribuciones económicas a los autores que contribuyen a la revista ni a los miembros de los comités. Las decisiones y procedimientos se rigen por criterios de calidad académica, excelencia investigativa, integridad, honestidad y transparencia, por lo que se adhiere a los principios del Committee Of Publication Ethics (COPE)."
-link : "https://revistas.ucatolicaluisamigo.edu.co/index.php/perseitas/issue/view/182/223"
----

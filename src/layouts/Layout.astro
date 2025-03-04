@@ -30,6 +30,8 @@ const { title } = Astro.props;
 			href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css"
 			rel="stylesheet"
 		/>
+
+		<!--Evento para el carrusel de los servicios-->
 		<script type="module">
 		import KeenSlider from "https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm";
 
@@ -62,7 +64,31 @@ const { title } = Astro.props;
 
 		keenSliderPrevious.addEventListener("click", () => keenSlider.prev());
 		keenSliderNext.addEventListener("click", () => keenSlider.next());
+
 		</script>
+
+		<!--eventos pop-up para las imagenes de portafolio -->
+		<script>
+		//funcion de las imagenes pop-up
+		const modal = document.querySelector('#imageModal');
+        const modalImage = document.getElementById('modalImage');
+        const images = document.querySelectorAll('.img_modal');
+
+        images.forEach(image => {       
+            image.addEventListener('click', () => {
+                let img = image.attributes.getNamedItem('src')?.value || "";
+                modalImage?.setAttribute('src', img);
+                modal?.classList.remove('hidden');
+                modal?.classList.add('flex');
+            });
+        });
+
+        modal?.addEventListener('click', () => {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        });
+		</script>
+
 	</head>
 	<body>
 		<slot />
